@@ -2,8 +2,8 @@ import oracledb
 try:
     connection = oracledb.connect(
         user="sys",
-        password="Ebslabs123", 
-        dsn="192.168.75.33:1521/NBFDEV",
+        password="pass", 
+        dsn="ip:port/dbname",
         mode=oracledb.AUTH_MODE_SYSDBA
     )
     print("Connection successful!")
